@@ -128,6 +128,30 @@ A_1/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\A_1.dir\build.make CMakeFiles/A_1.dir/build
 .PHONY : A_1/fast
 
+libs/data_stuctures/vector/vector.obj: libs/data_stuctures/vector/vector.c.obj
+.PHONY : libs/data_stuctures/vector/vector.obj
+
+# target to build an object file
+libs/data_stuctures/vector/vector.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\A_1.dir\build.make CMakeFiles/A_1.dir/libs/data_stuctures/vector/vector.c.obj
+.PHONY : libs/data_stuctures/vector/vector.c.obj
+
+libs/data_stuctures/vector/vector.i: libs/data_stuctures/vector/vector.c.i
+.PHONY : libs/data_stuctures/vector/vector.i
+
+# target to preprocess a source file
+libs/data_stuctures/vector/vector.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\A_1.dir\build.make CMakeFiles/A_1.dir/libs/data_stuctures/vector/vector.c.i
+.PHONY : libs/data_stuctures/vector/vector.c.i
+
+libs/data_stuctures/vector/vector.s: libs/data_stuctures/vector/vector.c.s
+.PHONY : libs/data_stuctures/vector/vector.s
+
+# target to generate assembly for a file
+libs/data_stuctures/vector/vector.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\A_1.dir\build.make CMakeFiles/A_1.dir/libs/data_stuctures/vector/vector.c.s
+.PHONY : libs/data_stuctures/vector/vector.c.s
+
 main.obj: main.c.obj
 .PHONY : main.obj
 
@@ -161,6 +185,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... A_1
+	@echo ... libs/data_stuctures/vector/vector.obj
+	@echo ... libs/data_stuctures/vector/vector.i
+	@echo ... libs/data_stuctures/vector/vector.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

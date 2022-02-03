@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/serge/CLionProjects/A-1/libs/data_stuctures/vector/vector.h
+stdio.h
+-
+
+C:/Users/serge/CLionProjects/A-1/main.c
+stdio.h
+-
+stdint.h
+-
+libs/data_stuctures/vector/vector.h
+C:/Users/serge/CLionProjects/A-1/libs/data_stuctures/vector/vector.h
+

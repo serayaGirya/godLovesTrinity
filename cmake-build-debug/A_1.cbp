@@ -74,6 +74,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="C:/Users/serge/CLionProjects/A-1/libs/data_stuctures/vector/vector.c">
+			<Option target="A_1"/>
+		</Unit>
+		<Unit filename="C:/Users/serge/CLionProjects/A-1/libs/data_stuctures/vector/vector.h">
+			<Option target="A_1"/>
+		</Unit>
 		<Unit filename="C:/Users/serge/CLionProjects/A-1/main.c">
 			<Option target="A_1"/>
 		</Unit>
