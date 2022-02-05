@@ -6,15 +6,17 @@
 
 #IncludeRegexTransform: 
 
+C:/Users/serge/CLionProjects/A-1/libs/data_stuctures/vector/vector.c
+vector.h
 C:/Users/serge/CLionProjects/A-1/libs/data_stuctures/vector/vector.h
-stdio.h
--
 
-C:/Users/serge/CLionProjects/A-1/main.c
+C:/Users/serge/CLionProjects/A-1/libs/data_stuctures/vector/vector.h
 stdio.h
 -
-stdint.h
+malloc.h
 -
-libs/data_stuctures/vector/vector.h
-C:/Users/serge/CLionProjects/A-1/libs/data_stuctures/vector/vector.h
+stdlib.h
+-
+stdbool.h
+-
 
